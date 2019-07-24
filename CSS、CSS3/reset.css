@@ -1,0 +1,21 @@
+/** 清除内外边距 - clearance of inner and outer margins **/
+
+/* 结构元素 - structural elements */
+html, body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, div,
+/* 列表元素 - list elements */
+dl, dt, dd, ul, ol, li,
+/* 文本格式元素 - text formatting elements */
+pre,
+/* 表单元素 - from elements */
+form, fieldset, legend, button, input, textarea,
+/* 表格元素 - table elements */
+th, td {
+  margin: 0;
+  padding: 0;
+}
+
+/** 设置字体 **/
+h1, h2, h3, h4, h5, h6, button, input, select, textarea {
+  font-size: 100%;
+  font-weight: normal;
+}

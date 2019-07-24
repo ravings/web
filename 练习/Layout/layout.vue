@@ -2,7 +2,7 @@
   <div>
     <div class="main_2">
       <ul ref="ul">
-        <li v-for="item in clssList">
+        <li v-for="item in clssList" :key="item">
           <div :class="item">{{ item }}</div>
         </li>
       </ul>
